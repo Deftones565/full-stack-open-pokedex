@@ -26,5 +26,4 @@ jobs:
         with:
           start: npm run start-prod
           wait-on: http://localhost:5000
-          with:
-            spec: cypress/e2e/pokemon.cy.js
+          spec: cypress/e2e/pokemon.cy.js

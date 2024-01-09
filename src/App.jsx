@@ -34,6 +34,7 @@ const App = () => {
           return <PokemonPage pokemonList={pokemonList} previous={previous} next={next} />
         }} />
       </Switch>
+      <h2>Pokemon and Pokemon character names are trademarks of Nintendo</h2>
     </Router>
   )
 }

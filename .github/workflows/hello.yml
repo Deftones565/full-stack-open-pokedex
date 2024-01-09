@@ -3,12 +3,13 @@ name: Hello World!
 on:
   push:
     branches:
-      - Master
+      - master
+      # note that your "main" branch might be called main instead of master
 
 jobs:
   hello_world_job:
     runs-on: ubuntu-20.04
     steps:
-      - name Say Hello
-    run: |
-      echo "Hello World!"
+      - name: Say hello
+        run: |
+          echo "Hello World!"
